@@ -5,20 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sports!</title>
+  <title>Mission to Mars</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
-  <div class="container text-center">
-    <h1 class="jumbotron">Player Roster</h1>
+  <div class="container">
+    <div class="jumbotron text center" style="background:url(https://images.alphacoders.com/453/453091.jpg)">
+      <h1 style= "color: white; text: 2px 2px black; "> Mission to Mars</h1>h1>
+      <br>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role"button"> Scrape New Data</a><p>
     <div>
-      <ul style="list-style: none;">
-        <li>{{ dict.player_1 }}</li>
-        <li>{{ dict.player_2 }}</li>
-      </ul>
+  <div>
+
+    <!--Surf Data-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Latest Mars News</h2>
+        <h4>{{ news_title }}</h4>
+        <p>{{ news_p </p>
+      </div>
     </div>
   </div>
-</body>
+</hr>
 
+<!---Two Column Section--->
+<div class="container padding">
+  <div class="row padding">
+    <div class="col-lg-8 col-sm-12">
+    <h2>Featured Mars Image</h2>
+    <img src="{{https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA24247-640x350.jpg }}" class="img-fluid" style="image-orientation: from-image;">
+
+
+    </div>
+  </div>
+</div>
 </html>
